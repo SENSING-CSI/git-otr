@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 import torch.nn as nn
-import torch.optim as optim
+import torch.optim as optim #수정
 
 loaded_data = np.load('csi_scaled_train_test.npz', allow_pickle=True)
 
